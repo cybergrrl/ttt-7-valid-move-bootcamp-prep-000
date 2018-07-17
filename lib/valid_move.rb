@@ -8,6 +8,6 @@ end
 def position_taken?(array, position)
   if (array[position] == "X" || array[position] == "Y")
     return true
-  else return falsey
+  else return false
   end
 end
